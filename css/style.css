@@ -1,0 +1,30 @@
+.container{
+    margin: 0 auto;
+}
+
+#nav{
+background-color: rgb(196, 180, 211);
+color: darkgreen;
+text-align: center;
+}
+#silder{
+    width:100%;
+}
+
+.fields{
+    margin:10px;
+
+}
+
+.fields>input{
+    border-color: black;
+    padding:5px;
+}
+
+#submit{
+    border-radius: 5px;
+    margin-left:85px;
+    background-color:green;
+    width:100px;
+    height: 40px;
+}
