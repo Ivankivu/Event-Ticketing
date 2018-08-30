@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(44, 62, 80);
+    height:70px;
+}
+
+header>h2 {
+    margin-left: 60px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(149, 165, 166);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
