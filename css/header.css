@@ -1,26 +1,26 @@
 header {
     display: flex;
     flex-direction: row;
-    background-color:rgb(236, 240, 241);
-    height:70px;
+    background-color: rgb(236, 240, 241);
+    height: 70px;
 }
-
 
 header>h2 {
     margin-left: 60px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border-radius:20px;
+    border-radius: 20px;
     overflow: hidden;
-    background-color:rgb(149, 165, 166);
+    background-color: rgb(149, 165, 166);
 }
 
 li {
     float: right;
-    margin-right:20px;
+    margin-right: 20px;
 }
 
 li a {
@@ -32,5 +32,5 @@ li a {
 }
 
 li a:hover {
-    background-color:rgb(236, 240, 241);
+    background-color: rgb(236, 240, 241);
 }
