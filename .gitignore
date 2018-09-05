@@ -107,3 +107,4 @@ app.v1/env/
 
 # vscode
 .idea/
+.vscode
