@@ -17,6 +17,3 @@ class DatabaseConnection:
         except expression as e:
             print(e.message)
             print('failed to connect to db')
-
-    def createUser():
-       

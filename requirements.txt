@@ -29,3 +29,4 @@ SQLAlchemy==1.2.11
 virtualenv==16.0.0
 Werkzeug==0.14.1
 wrapt==1.10.11
+postcopg2
