@@ -1,22 +1,21 @@
 
 
 class Person():
-    def __init__(self, user_id, name, address, age, sex):
-        self.user_id = user_id
+    def __init__(self, name, age, sex):
         self.name = name
-        self.address = address
         self.age = age
         self.sex = sex
 
     def description(self):
-        return "The person is a  {} with characteristics {}".format(self.user_id, self.name, self.address, 
-                                                                    self.sex, self.age)
+        return "Each person has {} and of  {}".format(self.name, self.sex, self.age)
 
     def sound(self):
         return "{} user_id laughs like Hahaha  Hehehe".format(self.user_id)
 
 class User():
     def __init__(self, user_id, name, address, age, sex):
+        self.user_id = user_id
+        self.address = address
         super().__init__(user_id, address, sex, age)
         self.user_id = user_id
     
