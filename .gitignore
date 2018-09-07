@@ -106,4 +106,8 @@ app.v1/env/
 .mypy_cache/
 
 # vscode
+.idea
 .idea/
+.vscode
+
+postgresqlPython/env
