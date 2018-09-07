@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Events Ticketing and Registration App
+=======
+# Events Ticketing and Registration App 
+>>>>>>> c426b71aaacd62a27a23103f3954b5d88b74248a
 
 |Travis CI status | [![Build Status](https://travis-ci.org/Ivankivu/Event-Ticketing.svg?branch=RestApi)]
 
