@@ -22,8 +22,10 @@ def get_users():
 @users.route("/api/add-user", methods=["POST"])
 def add_user():
     user = {    "user_id" : request.json["user_id"],
+                "name":     request.json["name"],
+                "address":  request.json["address"],
                 "Age" :     request.json["Age"],
-                "name":     request.json["name"]
+                 "sex":     request.json["sex"]
         }
     for user_id in user:
         if user["user_id"] == user_id:
@@ -39,7 +41,7 @@ def get_user(user_id):
     use = [user for user in api if user["user_id"] == user_id]
     return jsonify({"use": use[0]}), 200
 
-@users.route("/api/delete", methods=["DELETE"])
+@users.route("/api/delete-user", methods=["DELETE"])
 def delete_user(user_id):
 
     for user in api:
