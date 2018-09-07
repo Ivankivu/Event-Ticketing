@@ -1,16 +1,17 @@
 
 
 class Person():
-    def __init__(self, name, age, sex):
+    def __init__(self,heritage, name, age, sex):
+        self.heritage = heritage
         self.name = name
         self.age = age
         self.sex = sex
 
     def description(self):
-        return "Each person has {} and of  {}".format(self.name, self.sex, self.age)
+        return "Every person of any {} has a {}, {} and any age like {}".format(self.heritage, self.name, self.sex, self.age)
 
     def sound(self):
-        return "{} user_id laughs like Hahaha  Hehehe".format(self.user_id)
+        return "{} user_id laughs like Hahaha  Hehehe".format(self.heritage)
 
 class User():
     def __init__(self, user_id, name, address, age, sex):
