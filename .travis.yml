@@ -4,11 +4,16 @@ python:
   -"3.6"
   -"3.7"
   -"3.7.0"
-  
+
 cache: pip
-install: 
--pip install -r requirements.txt
+install: Ivan
+-"pip install -r requirements.txt"
+-"pip install coveralls"
 script: 
 -coverage run /RegistrationApp/test_registration.py
 -coverage run /receptionApp/test_reception.py
 -coverage run /RegistrationApp/test_registration.py
+after_success:
+  - coveralls
+before_script:
+  - flake8 . --config=flake8
