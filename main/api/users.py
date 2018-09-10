@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify, json, Blueprint
+
 users = Blueprint("users", __name__)
 
 ivan = Flask(__name__)
-
-
+ 
 api = []
 
 @users.route("/", methods=["GET"])

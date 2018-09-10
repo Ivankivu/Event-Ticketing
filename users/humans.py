@@ -1,9 +1,7 @@
-
 from flask import Flask, Blueprint
 man = Flask(__name__)
 
 people = Blueprint("GuestList", __name__)
-
 
 class Person():
     def __init__(self, name, age):
