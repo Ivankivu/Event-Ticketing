@@ -1,6 +1,6 @@
 # Events Ticketing and Registration App
 
-|Travis CI status | [![Build Status](https://travis-ci.com/Ivankivu/Event-Ticketing.svg?branch=ModulaApi)] [![Coverage Status](https://coveralls.io/repos/github/Ivankivu/Event-Ticketing/badge.svg?branch=master)](https://coveralls.io/github/Ivankivu/Event-Ticketing?branch=master)
+|Travis CI status | [![Build Status](https://travis-ci.com/Ivankivu/Event-Ticketing.svg?branch=master)] [![Coverage Status](https://coveralls.io/repos/github/Ivankivu/Event-Ticketing/badge.svg?branch=master)](https://coveralls.io/github/Ivankivu/Event-Ticketing?branch=master)[![codecov](https://codecov.io/gh/Ivankivu/Event-Ticketing/branch/master/graph/badge.svg)](https://codecov.io/gh/Ivankivu/Event-Ticketing)
 
 ## Features
 
